@@ -5,6 +5,7 @@
     "types": "src/index.ts",
     "keywords": [],
     "author": "DouglasSerena",
+    "description": "This is a template for creating plugins for the mosconautas",
     "license": "GPL-3.0",
     "repository": {
         "type": "git",
