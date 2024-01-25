@@ -6,6 +6,10 @@
     "keywords": [],
     "author": "DouglasSerena",
     "license": "GPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:mosconautas/plugin.template.js.git"
+    },
     "scripts": {
         "build": "tsc -p tsconfig.build.json",
         "test": "jest",
