@@ -16,7 +16,9 @@
         "test": "jest",
         "test:watch": "jest --watch",
         "test:coverage": "jest --coverage",
-        "lint": "echo \"No linting configured\""
+        "lint": "npx @biomejs/biome lint .",
+        "lint:fix": "npx @biomejs/biome check --apply .",
+        "format": "npx @biomejs/biome format --write ."
     },
     "devDependencies": {
         "@swc/jest": "^0.2.27",
