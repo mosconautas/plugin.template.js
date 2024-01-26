@@ -7,11 +7,5 @@ module.exports = {
 		"^.+\\.ts?$": "@swc/jest",
 	},
 	testPathIgnorePatterns: ["/node_modules/", "/dist/"],
-	coveragePathIgnorePatterns: [
-		"/node_modules/",
-		"/dist/",
-		"/coverage/",
-		"/factories/",
-		"/mocks/",
-	],
+	coveragePathIgnorePatterns: ["/node_modules/", "/dist/", "/coverage/", "/factories/", "/mocks/"],
 };

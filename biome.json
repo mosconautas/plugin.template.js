@@ -3,11 +3,19 @@
 	"organizeImports": {
 		"enabled": true
 	},
+	"formatter": {
+		"enabled": true,
+		"lineWidth": 120,
+		"indentWidth": 4
+	},
 	"linter": {
 		"enabled": true,
 		"ignore": ["node_modules/**/*", "dist/**/*"],
 		"rules": {
-			"recommended": true
+			"recommended": true,
+			"suspicious": {
+				"noExplicitAny": "off"
+			}
 		}
 	}
 }
